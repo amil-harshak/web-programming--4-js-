@@ -1,0 +1,29 @@
+
+<html lang="en">
+
+<head>
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <img id="myImage" src="pic_bulboff.jpg" width="100" height="180">
+    <button onclick="lightsOn()">Click to on</button>
+    <button onclick="lightsOff()">Click to off</button>
+    <p>Click the light bulb to turn on/off the light.</p>
+
+    <script>
+        function lightsOff() {
+            var image = document.getElementById('myImage');
+            image.src = "pic_bulboff.jpg";
+        }
+
+        function lightsOn(){
+            var image = document.getElementById('myImage');
+            image.src = "pic_bulbon.gif";
+        }
+    </script>
+</body>
+
+</html>
+
